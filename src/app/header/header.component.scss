@@ -1,0 +1,21 @@
+.container-header {
+    height: 100px;
+    background-color: rgba(8, 142, 252, 0.514);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: inset 0px -23px 20px -15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-left: 25px;
+    color: white;
+}
+.nav {
+    width: 350px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.bg-light {
+    background-color: unset !important;
+}

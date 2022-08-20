@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "logistic-planer": {
+      "hosting": {
+        "logisticPlaner": [
+          "logistic-planer"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "logistic-planer"
+  }
+}
