@@ -4,18 +4,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: inset 0px -23px 20px -15px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px -23px 20px -8px rgba(255, 255, 255, 0.5);
 }
 
 h1 {
     margin-left: 25px;
     color: white;
 }
-.nav {
-    width: 350px !important;
-    display: flex !important;
-    justify-content: space-between !important;
-}
-.bg-light {
-    background-color: unset !important;
+.btn {
+    margin-right: 16px !important;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
