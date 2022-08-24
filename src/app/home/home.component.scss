@@ -1,0 +1,9 @@
+.main-container {
+    height: calc(100vh - 200px);
+    display: flex;
+}
+.nav-container {
+    width: 250px;
+    height: calc(100vh - 200px);
+    box-shadow: inset -13px 0px 10px -4px rgba(0, 0, 0, 0.26);
+}

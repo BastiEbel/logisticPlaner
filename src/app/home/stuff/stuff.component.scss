@@ -1,0 +1,17 @@
+.add-user-button {
+    position: absolute;
+    right: 20px;
+    bottom: 120px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: unset;
+    background-color: rgba(8, 142, 252, 0.514);
+    box-shadow: inset 0px -23px 20px -8px rgba(255, 255, 255, 0.5);
+    color: rgb(36, 36, 61);
+    font-size: xx-large;
+    &:hover {
+        background-color: rgba(8, 142, 252, 0.74);
+        color: rgb(25, 25, 44);
+    }
+}
