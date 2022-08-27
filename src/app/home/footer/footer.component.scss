@@ -1,10 +1,9 @@
 .container-footer {
     height: 100px;
-    background-color: rgba(8, 142, 252, 0.514);
+    margin-left: 300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: inset 0px 23px 20px -8px rgba(255, 255, 255, 0.5);
 }
 
 .footer {
@@ -15,11 +14,11 @@
 }
 
 a {
-    color: white;
+    color: black;
     font-size: 24px;
     text-decoration: none;
 
     &:hover {
-        color: rgb(0, 60, 255);
+        color: rgba(0, 0, 0, 0.5);
     }
 }

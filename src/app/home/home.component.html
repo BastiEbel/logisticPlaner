@@ -1,10 +1,20 @@
-<app-header></app-header>
-<div class="main-container">
-  <div class="nav-container">
-    <button class="btn btn-outline-primary mb-2 me-2" routerLink="home/product">
-      Modal vertically centered
-    </button>
+<mat-drawer-container class="mat-draw-container" autosize>
+  <mat-drawer #drawer class="sidenav" [opened]="true" mode="side">
+    <div class="logo-container">Firmen Logo</div>
+    <ul class="menu-items">
+      <li routerLink="/home"><mat-icon></mat-icon>Dashboard</li>
+      <li routerLink="/home/product"><mat-icon></mat-icon>Product</li>
+    </ul>
+  </mat-drawer>
+  <div class="example-sidenav-content">
+    <mat-toolbar>
+      <mat-toolbar-row>
+        <span>Logistik Planer</span>
+      </mat-toolbar-row>
+    </mat-toolbar>
+    <div class="router-container">
+      <router-outlet></router-outlet>
+    </div>
   </div>
-  <router-outlet></router-outlet>
-</div>
-<app-footer></app-footer>
+</mat-drawer-container>
+<!-- <app-footer></app-footer> -->
