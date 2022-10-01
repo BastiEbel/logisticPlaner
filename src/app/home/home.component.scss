@@ -1,9 +1,23 @@
 .mat-draw-container {
     height: 100vh;
+    background-color: rgb(27, 27, 27);
 }
 .menu-icon {
     cursor: pointer;
     margin-right: 16px;
+}
+
+.mat-toolbar {
+    min-height: 80px !important;
+    background-color: rgb(27, 27, 27) !important;
+    color: white;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    flex-direction: unset;
+    span {
+        margin-left: 32px;
+    }
 }
 
 .sidenav {
@@ -12,8 +26,12 @@
     background-color: rgba(0, 0, 0, 0.897);
 }
 
+.mat-drawer {
+    border-right: 1px solid white;
+}
+
 .logo-container {
-    border-bottom: 1px solid rgb(255, 255, 255);
+    height: 80px;
     padding-left: 16px;
     padding-right: 16px;
     min-height: 56px;
@@ -29,32 +47,41 @@
     margin-top: 32px;
     color: white;
 
+    img {
+        margin-right: 16px;
+        margin-left: 16px;
+        width: 24px;
+        height: 24px;
+        background-color: white;
+    }
+
     li {
+        font-size: 20px;
         padding-left: 16px;
         padding-right: 16px;
         height: 50px;
         display: flex;
         align-items: center;
         cursor: pointer;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        margin-bottom: 16px;
+
+        mat-icon {
+            margin-right: 16px;
+            margin-left: 16px;
+        }
 
         &:focus {
             outline: none;
         }
 
-        mat-icon {
-            margin-right: 16px;
-        }
-
         &:hover {
-            background-color: rgba(0, 0, 0, 0.04);
+            padding-left: 40px;
+            font-size: 24px;
+            background-color: rgb(41, 41, 41);
         }
     }
-}
-
-.router-container {
-    padding-left: 56px;
-    padding-right: 56px;
-    padding-top: 16px;
 }
 
 .logo {
